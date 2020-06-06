@@ -694,7 +694,7 @@ tr:nth-child(even) {
         position: absolute;
         color: #063d18;
         left: 30px;
-        bottom: 30px;
+        bottom: 20px;
         font-size: 10px;
     }
 
@@ -727,7 +727,7 @@ tr:nth-child(even) {
         position: absolute;
         color: #080431;
         left: 30px;
-        bottom: 30px;
+        bottom: 20px;
         font-size: 10px;
     }
 
@@ -760,7 +760,7 @@ tr:nth-child(even) {
         position: absolute;
         color: #151a03;
         left: 30px;
-        bottom: 30px;
+        bottom: 20px;
         font-size: 10px;
     }
 
@@ -793,7 +793,7 @@ tr:nth-child(even) {
         position: absolute;
         color: #251cad;
         left: 30px;
-        bottom: 30px;
+        bottom: 20px;
         font-size: 10px;
     }
 

@@ -581,7 +581,7 @@ tr:nth-child(even) {
         /* margin-left: -5px; */
         border-radius: 10%;
         /* margin: 2px; */
-        background: #e1e0e6;
+        /* background: #e1e0e6; */
         width: 75px;
 
     }
@@ -593,13 +593,13 @@ tr:nth-child(even) {
 
     ul li:hover .sub-menu-1 ul li {
 
-        width: 50px;
-        /* padding: 2px; */
+        width: 40px;
+        padding: 6px;
         border-bottom: 1px dotted rgb(115, 147, 199);
-        background: transparent;
+        /* background: transparent; */
         border-radius: 5%;
         /* text-align: left; */
-        /* background: #e1e0e6; */
+        background: #e1e0e6;
     }
 
     ul li:hover .sub-menu-1 ul li:hover {

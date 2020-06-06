@@ -492,7 +492,7 @@ tr:nth-child(even) {
 
         background: url(../images/BACKDROUND1.svg);
         /* background-image: url(../images/BACKDROUND.svg); */
-        background-size: cover;
+        background-size: 400vh;
         background-repeat: no-repeat;
         background-position: center;
         padding: 0;
@@ -813,7 +813,7 @@ tr:nth-child(even) {
 @media screen and (max-width: 320px) and (max-height: 568px) {
     html {
         height: 130%;
-        background-size: 250vh;
+        background-size: 300vh;
     }
 
 }

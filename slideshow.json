@@ -1,0 +1,23 @@
+{
+    "items": [{
+            "title": "Africa",
+            "img": "bullhorn-lg.png",
+            "msg": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit accusantium laudantium, assumenda natus porro repellat fugiat numquam ea accusamus itaque quo, adipisci quis in voluptatem, perferendis eligendi ipsa animi nisi."
+        },
+        {
+            "title": "America",
+            "img": "calendar-lg.png",
+            "msg": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit accusantium laudantium, assumenda natus porro repellat fugiat numquam ea accusamus itaque quo, adipisci quis in voluptatem, perferendis eligendi ipsa animi nisi."
+        },
+        {
+            "title": "Asia",
+            "img": "iphone-lg.png",
+            "msg": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit accusantium laudantium, assumenda natus porro repellat fugiat numquam ea accusamus itaque quo, adipisci quis in voluptatem, perferendis eligendi ipsa animi nisi."
+        },
+        {
+            "title": "Europe",
+            "img": "cog-lg.png",
+            "msg": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit accusantium laudantium, assumenda natus porro repellat fugiat numquam ea accusamus itaque quo, adipisci quis in voluptatem, perferendis eligendi ipsa animi nisi."
+        }
+    ]
+}

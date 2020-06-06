@@ -1,0 +1,154 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: url(../images/BACKDROUND.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    position: relative;
+}
+
+header {
+    position: relative;
+    background-size: 100%;
+    width: 100%;
+}
+
+nav {
+    background-size: 100%;
+    width: 100%;
+    /* background: #00316b; */
+}
+
+.logo {
+    position: relative;
+    top: 10px;
+    right: -10px;
+    index: 1;
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+
+ul {
+    /* width: 100%;
+    margin: 0 auto;
+    padding: 0; */
+    display: inline-flex;
+    list-style: none;
+    float: right;
+}
+
+ul li {
+    padding: 5px;
+    width: 120px;
+    margin: 15px;
+    color: #594b9e
+}
+
+ul li:hover {
+    background: #e91e63;
+}
+
+ul li a {
+    /* color: #7163b8; */
+    text-decoration: none;
+}
+
+.toggle {
+    width: 100%;
+    padding: 10px 20px;
+    /* background: #001f44; */
+    text-align: right;
+    box-sizing: border-box;
+    color: #2b1e6d;
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+
+}
+
+ul li:hover {
+    background: #d6ac21;
+    border-radius: 3px;
+    /* padding-left: 20px; */
+
+}
+
+.sub-menu-1 {
+    display: none;
+    /* color: #fff; */
+}
+
+ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: #e1e0e6;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.sub-menu-1 {
+    display: none;
+    color: #fff;
+}
+
+ul li:hover .sub-menu-1 ul li {
+    width: 50px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(115, 147, 199);
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+/* ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+} */
+
+@media (max-width:768px) {
+    .toggle {
+        display: block;
+    }
+
+    .logo {
+        position: absolute;
+        top: 2%;
+        left: 2%;
+        index: 1;
+        height: 100px;
+        width: 100px;
+
+    }
+
+    ul {
+        width: 100%;
+        display: none;
+    }
+
+    ul li {
+        display: block;
+        position: relative;
+        top: 50px;
+        margin: 50px;
+
+    }
+
+    .sub-menu-1 ul li {
+        display: block;
+
+
+    }
+
+    .active {
+        display: block;
+        background-color: none;
+    }
